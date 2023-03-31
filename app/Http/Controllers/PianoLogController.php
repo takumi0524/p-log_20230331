@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Pianolog;
+use App\Models\PianoLog;
 use App\Services\CheckPianoLogService;
 use App\Http\Requests\StorePianologRequest;
 use App\Models\Composer;
@@ -110,7 +110,7 @@ class PianoLogController extends Controller
      */
     public function show($id)
     {
-        $pianolog = Pianolog::find($id);
+        $pianolog = PianoLog::find($id);
 
         $playingage = CheckPianoLogService::checkPlayingage($pianolog);
         $difficulty = CheckPianoLogService::checkDifficulty($pianolog);
@@ -130,7 +130,7 @@ class PianoLogController extends Controller
      */
     public function edit($id)
     {
-        $pianolog = Pianolog::find($id);
+        $pianolog = PianoLog::find($id);
 
         return view('pianologs.edit', compact('pianolog'));
     }
@@ -144,7 +144,7 @@ class PianoLogController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $pianolog = Pianolog::find($id);
+        $pianolog = PianoLog::find($id);
         $pianolog->username = $request->username;
         $pianolog->userid = $request->userid;
         $pianolog->song = $request->song;
@@ -174,7 +174,7 @@ class PianoLogController extends Controller
      */
     public function destroy($id)
     {
-        $pianolog = Pianolog::find($id);
+        $pianolog = PianoLog::find($id);
         $pianolog->delete();
 
         return to_route('pianologs.index');
