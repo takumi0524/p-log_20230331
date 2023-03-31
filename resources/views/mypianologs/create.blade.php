@@ -69,8 +69,22 @@
                                     <option value="ピアノソナタ 第14番 op.27-2 第2楽章 嬰ハ短調 月光" {{ old('song') ==  'ピアノソナタ 第14番 op.27-2 第2楽章 嬰ハ短調 月光' ? 'selected' : ""}}>ピアノソナタ 第14番 op.27-2 第2楽章 嬰ハ短調 月光</option>
                                     <option value="ピアノソナタ 第14番 op.27-2 第3楽章 嬰ハ短調 月光" {{ old('song') ==  'ピアノソナタ 第14番 op.27-2 第3楽章 嬰ハ短調 月光' ? 'selected' : ""}}>ピアノソナタ 第14番 op.27-2 第3楽章 嬰ハ短調 月光</option>
                                     <option value="謝肉祭 op.9 キアリーナ" {{ old('song') ==  '謝肉祭 op.9 キアリーナ' ? 'selected' : ""}}>謝肉祭 op.9 キアリーナ</option>
+                                    <option value="謝肉祭 op.9 前口上" {{ old('song') ==  '謝肉祭 op.9 前口上' ? 'selected' : ""}}>謝肉祭 op.9 前口上</option>
+                                    <option value="謝肉祭 op.9 フロレスタン" {{ old('song') ==  '謝肉祭 op.9 フロレスタン' ? 'selected' : ""}}>謝肉祭 op.9 フロレスタン</option>
+                                    <option value="謝肉祭 op.9 高貴なワルツ" {{ old('song') ==  '謝肉祭 op.9 高貴なワルツ' ? 'selected' : ""}}>謝肉祭 op.9 高貴なワルツ</option>
                                     <option value="バラード1番 op.23 ト短調" {{ old('song') ==  'バラード1番 op.23 ト短調' ? 'selected' : ""}}>バラード1番 op.23 ト短調</option>
+                                    <option value="バラード2番 op.38 ト短調" {{ old('song') ==  'バラード2番 op.38 ト短調' ? 'selected' : ""}}>バラード2番 op.38 ト短調</option>
+                                    <option value="バラード3番 op.47 ト短調" {{ old('song') ==  'バラード3番 op.47 ト短調' ? 'selected' : ""}}>バラード3番 op.47 ト短調</option>                                                           
+                                    <option value="バラード4番 op.52 ト短調" {{ old('song') ==  'バラード4番 op.52 ト短調' ? 'selected' : ""}}>バラード4番 op.52 ト短調</option>
                                     <option value="ピアノソナタ 第2番 op.22 第1楽章" {{ old('song') ==  'ピアノソナタ 第2番 op.22 第1楽章' ? 'selected' : ""}}>ピアノソナタ 第2番 op.22 第1楽章</option>
+                                    <option value="ピアノソナタ 第2番 op.22 第2楽章" {{ old('song') ==  'ピアノソナタ 第2番 op.22 第2楽章' ? 'selected' : ""}}>ピアノソナタ 第2番 op.22 第2楽章</option>
+                                    <option value="ピアノソナタ 第2番 op.22 第3楽章" {{ old('song') ==  'ピアノソナタ 第2番 op.22 第3楽章' ? 'selected' : ""}}>ピアノソナタ 第2番 op.22 第3楽章</option>
+                                    <option value="子供の領分 グラドゥス・アド・パルナッスム博士" {{ old('song') ==  '子供の領分 グラドゥス・アド・パルナッスム博士' ? 'selected' : ""}}>子供の領分 グラドゥス・アド・パルナッスム博士</option>
+                                    <option value="子供の領分 象の子守歌" {{ old('song') ==  '子供の領分 象の子守歌' ? 'selected' : ""}}>子供の領分 象の子守歌</option>
+                                    <option value="子供の領分 人形のセレナード" {{ old('song') ==  '子供の領分 人形のセレナード' ? 'selected' : ""}}>子供の領分 人形のセレナード</option>
+                                    <option value="子供の領分 雪は踊っている" {{ old('song') ==  '子供の領分 雪は踊っている' ? 'selected' : ""}}>子供の領分 雪は踊っている</option>
+                                    <option value="子供の領分 小さな羊飼い" {{ old('song') ==  '子供の領分 小さな羊飼い' ? 'selected' : ""}}>子供の領分 小さな羊飼い</option>
+                                    <option value="子供の領分 ゴリウォーグのケークウォーク" {{ old('song') ==  '子供の領分 ゴリウォーグのケークウォーク' ? 'selected' : ""}}>子供の領分 ゴリウォーグのケークウォーク</option>
                                   </select>        
                                 </div>
                               </div>
