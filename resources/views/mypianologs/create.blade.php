@@ -73,9 +73,9 @@
                                     <option value="謝肉祭 op.9 フロレスタン" {{ old('song') ==  '謝肉祭 op.9 フロレスタン' ? 'selected' : ""}}>謝肉祭 op.9 フロレスタン</option>
                                     <option value="謝肉祭 op.9 高貴なワルツ" {{ old('song') ==  '謝肉祭 op.9 高貴なワルツ' ? 'selected' : ""}}>謝肉祭 op.9 高貴なワルツ</option>
                                     <option value="バラード1番 op.23 ト短調" {{ old('song') ==  'バラード1番 op.23 ト短調' ? 'selected' : ""}}>バラード1番 op.23 ト短調</option>
-                                    <option value="バラード2番 op.38 ト短調" {{ old('song') ==  'バラード2番 op.38 ト短調' ? 'selected' : ""}}>バラード2番 op.38 ト短調</option>
-                                    <option value="バラード3番 op.47 ト短調" {{ old('song') ==  'バラード3番 op.47 ト短調' ? 'selected' : ""}}>バラード3番 op.47 ト短調</option>                                                           
-                                    <option value="バラード4番 op.52 ト短調" {{ old('song') ==  'バラード4番 op.52 ト短調' ? 'selected' : ""}}>バラード4番 op.52 ト短調</option>
+                                    <option value="バラード2番 op.38 ヘ短調" {{ old('song') ==  'バラード2番 op.38 ヘ短調' ? 'selected' : ""}}>バラード2番 op.38 ヘ短調</option>
+                                    <option value="バラード3番 op.47 変イ長調" {{ old('song') ==  'バラード3番 op.47 変イ長調' ? 'selected' : ""}}>バラード3番 op.47 変イ長調</option>                                                           
+                                    <option value="バラード4番 op.52 ヘ短調" {{ old('song') ==  'バラード4番 op.52 ヘ短調' ? 'selected' : ""}}>バラード4番 op.52 ヘ短調</option>
                                     <option value="ピアノソナタ 第2番 op.22 第1楽章" {{ old('song') ==  'ピアノソナタ 第2番 op.22 第1楽章' ? 'selected' : ""}}>ピアノソナタ 第2番 op.22 第1楽章</option>
                                     <option value="ピアノソナタ 第2番 op.22 第2楽章" {{ old('song') ==  'ピアノソナタ 第2番 op.22 第2楽章' ? 'selected' : ""}}>ピアノソナタ 第2番 op.22 第2楽章</option>
                                     <option value="ピアノソナタ 第2番 op.22 第3楽章" {{ old('song') ==  'ピアノソナタ 第2番 op.22 第3楽章' ? 'selected' : ""}}>ピアノソナタ 第2番 op.22 第3楽章</option>
